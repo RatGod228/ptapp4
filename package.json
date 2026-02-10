@@ -1,0 +1,16 @@
+{
+  "name": "profittrack-pro",
+  "version": "1.0.0",
+  "description": "ProfitTrack - Учет закупок и продаж с серверным хранением данных",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
